@@ -1,4 +1,4 @@
-EasyStart.IPAD.NET
+MagTek.IPAD.CSharp
 ==================
 
 VS 2010 C# IPAD integration with Mercury E2E and MToken
