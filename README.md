@@ -1,7 +1,7 @@
 MagTek.IPAD.CSharp
 ==================
 
-VS 2010 C# IPAD integration with Mercury E2E and MToken
+VS 2010 C# IPAD integration with Mercury E2E and Tokenization
 
 3 step process to integrate to Mercury Web Services.
 
