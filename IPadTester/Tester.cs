@@ -23,6 +23,7 @@ namespace IPADDemo
 
         private TransctionToRun transactionToRun = TransctionToRun.None;
         private static string merchantID = "118725340908147";
+        private static string laneID = "02";
         private static string password = "xyz";
         private static string invoiceNo = string.Empty;
         private static string memo = "Testing MagTek.IPAD.CSharp";
@@ -1576,6 +1577,7 @@ namespace IPADDemo
             // Create Request KeyValuePairs
             Dictionary<string, object> requestDictionary = new Dictionary<string, object>();
             requestDictionary.Add("MerchantID", merchantID);
+            requestDictionary.Add("LaneID", laneID);
             requestDictionary.Add("TranType", "Credit");
             requestDictionary.Add("TranCode", "Sale");
             requestDictionary.Add("InvoiceNo", invoiceNo);
@@ -1605,6 +1607,7 @@ namespace IPADDemo
             // Create Request KeyValuePairs
             Dictionary<string, object> requestDictionary = new Dictionary<string, object>();
             requestDictionary.Add("MerchantID", merchantID);
+            requestDictionary.Add("LaneID", laneID);
             requestDictionary.Add("TranType", "Credit");
             requestDictionary.Add("TranCode", "Sale");
             requestDictionary.Add("InvoiceNo", invoiceNo);
